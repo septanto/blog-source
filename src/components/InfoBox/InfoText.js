@@ -8,8 +8,9 @@ const styles = theme => ({
     fontWeight: 300,
     lineHeight: 1.5,
     fontSize: ".95em",
-    textAlign: "left",
-    marginBottom: ".8em",
+    textAlign: "center",
+    marginTop: "1.5em",
+    marginBottom: "2em",
     "& p:first-child": {
       marginTop: 0
     },

@@ -5,14 +5,16 @@ import injectSheet from "react-jss";
 import config from "../../../content/meta/config";
 
 import GithubIcon from "!svg-react-loader!../../images/svg-icons/github.svg?name=GithubIcon";
-import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?name=FacebookIcon";
-import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
+// import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?name=FacebookIcon";
+import MediumIcon from "!svg-react-loader!../../images/svg-icons/medium.svg?name=MediumIcon";
+import LinkedInIcon from "!svg-react-loader!../../images/svg-icons/linkedin-box.svg?name=LinkedInIcon";
 
 const styles = theme => ({
   social: {
     display: "flex",
     justifyContent: "center",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    paddingBottom: "2em",
   },
   link: {
     display: "inline-block",
@@ -35,9 +37,10 @@ const Socialcons = props => {
   const { classes } = props;
   const items = config.authorSocialLinks;
   const icons = {
-    twitter: TwitterIcon,
-    facebook: FacebookIcon,
-    github: GithubIcon
+    // facebook: FacebookIcon,
+    github: GithubIcon,
+    linkedin: LinkedInIcon,
+    medium: MediumIcon
   };
 
   return (

@@ -1,7 +1,7 @@
 {
   "name": "septanto-blog",
   "description": "septanto personal blog",
-  "author": "Septanto <s.s.adi.nugroho@gmail.com>",
+  "author": "septanto <s.s.adi.nugroho@gmail.com>",
   "repository": "https://github.com/septanto/blog",
   "version": "1.1.1",
   "license": "MIT",
@@ -66,7 +66,9 @@
     "hoek": "^5.0.3",
     "instantsearch.css": "^7.1.0",
     "prismjs": "^1.14.0",
+    "react": "^16.4.1",
     "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.4.1",
     "react-facebook": "^5.0.3",
     "react-headroom": "^2.2.2",
     "react-helmet": "^5.1.3",
