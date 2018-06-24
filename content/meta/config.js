@@ -1,8 +1,8 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "HomePage", // <title>
-  shortSiteTitle: "A Human Side", // <title> ending for posts and pages
+  siteTitle: "Septanto", // <title>
+  shortSiteTitle: "Septanto Homepage", // <title> ending for posts and pages
   siteDescription: "a blog about NLP & Computational Linguistics",
   siteUrl: "https://septanto.github.io",
   pathPrefix: "",

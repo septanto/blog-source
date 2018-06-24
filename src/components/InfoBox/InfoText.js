@@ -7,10 +7,10 @@ const styles = theme => ({
     display: "block",
     fontWeight: 300,
     lineHeight: 1.5,
-    fontSize: ".95em",
+    fontSize: "1em",
     textAlign: "center",
     marginTop: "1.5em",
-    marginBottom: "2em",
+    marginBottom: "1.5em",
     "& p:first-child": {
       marginTop: 0
     },

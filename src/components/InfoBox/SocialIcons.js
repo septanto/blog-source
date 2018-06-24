@@ -14,7 +14,7 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "center",
     flexWrap: "wrap",
-    paddingBottom: "2em",
+    paddingBottom: "1.5em",
   },
   link: {
     display: "inline-block",

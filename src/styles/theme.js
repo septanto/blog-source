@@ -19,7 +19,7 @@ const theme = createMuiTheme({
     },
     fonts: {
       unstyledFamily: `Arial`,
-      styledFamily: "Open Sans",
+      styledFamily: "Roboto",
       styledFonts: "300,400,600"
     }
   },
@@ -37,9 +37,9 @@ const theme = createMuiTheme({
       headerHeight: 170
     },
     fonts: {
-      boxTitleSize: 1.3,
-      boxTitleSizeM: 1.5,
-      boxTitleSizeL: 1.7
+      boxTitleSize: 1.4,
+      boxTitleSizeM: 1.6,
+      boxTitleSizeL: 1.8
     }
   },
   navigator: {
@@ -51,10 +51,10 @@ const theme = createMuiTheme({
     },
     sizes: {
       closedHeight: 80,
-      postsListItemH1Font: 1.3,
-      postsListItemH2Font: 1.1,
-      fontIncraseForM: 1.15,
-      fontIncraseForL: 1.3
+      postsListItemH1Font: 1.4,
+      postsListItemH2Font: 1.2,
+      fontIncraseForM: 1.16,
+      fontIncraseForL: 1.4
     }
   },
   main: {
@@ -123,7 +123,7 @@ const theme = createMuiTheme({
     },
     fonts: {
       footnote: {
-        size: 0.8,
+        size: 0.85,
         lineHeight: 1.4
       }
     }
